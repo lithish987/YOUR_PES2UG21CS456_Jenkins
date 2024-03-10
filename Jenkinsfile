@@ -8,6 +8,7 @@ pipeline {
                   userRemoteConfigs: [[url: 'https://github.com/lithish987/YOUR_PES2UG21CS456_Jenkins.git']]])
                   }  
               }
+  }
   stage('Build') {
       steps {
           build 'YOUR_PES2UG21CS456-1'
